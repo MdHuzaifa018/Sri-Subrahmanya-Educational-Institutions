@@ -280,38 +280,7 @@ openAdmissionForm.addEventListener('click', () => {
 });
 
 // Form Submission
-studentForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    const formData = new FormData(this);
-    const studentName = formData.get('studentName');
-    const parentName = formData.get('parentName');
-    const phone = formData.get('phone');
-    const email = formData.get('email');
-    const course = formData.get('course');
-    
-    // Create mailto link
-    const adminEmail = 'srisubramanya1219@gmail.com';
-    const subject = 'New Admission Application from Website';
-    const body = `Student Name: ${studentName}
-Parent Name: ${parentName}
-Phone Number: ${phone}
-Email Address: ${email}
-Interested Course: ${course}
 
-This application was submitted via the website form.`;
-    
-    const mailtoLink = `mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    
-    // Open email client
-    window.location.href = mailtoLink;
-    
-    // Show success message
-    showNotification('Application submitted successfully! Your email client has been opened.', 'success');
-    
-    // Reset form
-    this.reset();
-});
 
 // Back to top functionality
 backToTop.addEventListener('click', () => {
