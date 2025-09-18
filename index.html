@@ -1,530 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sri Subrahmanya Educational Institutions</title>
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Subrahmanya Educational Institutions</title>
 
-    <!-- Font Awesome Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Loading Screen -->
-    <div class="loading-screen" id="loadingScreen">
-      <div class="loader">
-        <div class="loader-circle"></div>
-        <h2>Sri Subrahmanya Educational Institutions</h2>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loader">
+      <div class="loader-circle"></div>
+      <h2>Sri Subrahmanya Educational Institutions</h2>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <img src="img/logo.jpg" alt="Logo" class="nav-logo" />
+        <span class="nav-title">Sri Subrahmanya Educational Institutions</span>
+      </div>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#courses" class="nav-link">Courses</a>
+        <a href="#director" class="nav-link">Director</a>
+        <a href="#results" class="nav-link">Results</a>
+        <a href="#yoga" class="nav-link">Yoga</a>
+        <a href="#activities" class="nav-link">Activities</a>
+        <a href="#batches" class="nav-link">Batches</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
+  </nav>
 
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-      <div class="nav-container">
-        <div class="nav-brand">
-          <img src="img/logo.jpg" alt="Logo" class="nav-logo" />
-          <span class="nav-title"
-            >Sri Subrahmanya Educational Institutions</span
-          >
-        </div>
-
-        <div class="nav-menu" id="navMenu">
-          <a href="#hero" class="nav-link">Home</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#courses" class="nav-link">Courses</a>
-          <a href="#director" class="nav-link">Director</a>
-          <a href="#results" class="nav-link">Results</a>
-          <a href="#yoga" class="nav-link">Yoga</a>
-          <a href="#activities" class="nav-link">Activities</a>
-          <a href="#batches" class="nav-link">Batches</a>
-          <a href="#contact" class="nav-link">Contact</a>
-        </div>
-
-        <div class="nav-toggle" id="navToggle">
-          <span></span>
-          <span></span>
-          <span></span>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-background">
+      <div class="hero-particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text">
+          <h1 class="hero-title animate-on-scroll">
+            <span class="title-line">Sri Subrahmanya</span>
+            <span class="title-line">Educational Institutions</span>
+          </h1>
+          <p class="hero-subtitle animate-on-scroll">
+            Empowering Students for a Brighter Future
+          </p>
+          <div class="hero-buttons animate-on-scroll">
+            <a href="#about" class="btn btn-primary">
+              <span>Discover More</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#admissions" class="btn btn-secondary">
+              <span>Apply Now</span>
+              <i class="fas fa-graduation-cap"></i>
+            </a>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-      <div class="hero-background">
-        <div class="hero-particles"></div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow">
+        <i class="fas fa-chevron-down"></i>
       </div>
-      <div class="hero-content">
-        <div class="container">
-          <div class="hero-text">
-            <h1 class="hero-title animate-on-scroll">
-              <span class="title-line">Sri Subrahmanya</span>
-              <span class="title-line">Educational Institutions</span>
-            </h1>
-            <p class="hero-subtitle animate-on-scroll">
-              Empowering Students for a Brighter Future
-            </p>
-            <div class="hero-buttons animate-on-scroll">
-              <a href="#about" class="btn btn-primary">
-                <span>Discover More</span>
-                <i class="fas fa-arrow-right"></i>
-              </a>
-              <a href="#admissions" class="btn btn-secondary">
-                <span>Apply Now</span>
-                <i class="fas fa-graduation-cap"></i>
-              </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">About Us</h2>
+        <p class="section-subtitle">Building Excellence in Education</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text animate-on-scroll">
+          <p>
+            Sri Subrahmanya Educational Institutions is a trusted name in
+            student coaching and development, located in Vinjamur, Nellore
+            District, Andhra Pradesh. We are dedicated to providing a
+            high-quality learning environment that fosters academic excellence
+            and personal growth.
+          </p>
+          <p>
+            Our experienced faculty and well-structured curriculum are
+            designed to help students achieve their full potential and secure
+            top ranks in competitive exams. We believe in a holistic approach
+            to education, preparing our students not just for exams, but for a
+            brighter future.
+          </p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card animate-on-scroll">
+            <div class="stat-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="stat-number" data-target="500">0</div>
+            <div class="stat-label">Success Stories</div>
+          </div>
+
+          <div class="stat-card animate-on-scroll">
+            <div class="stat-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-number" data-target="15">0</div>
+            <div class="stat-label">Expert Faculty</div>
+          </div>
+
+          <div class="stat-card animate-on-scroll">
+            <div class="stat-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="stat-number" data-target="3">0</div>
+            <div class="stat-label">Years of Excellence</div>
+          </div>
+
+          <div class="stat-card animate-on-scroll">
+            <div class="stat-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <div class="stat-number" data-target="98">0</div>
+            <div class="stat-label">Success Rate %</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Director Section -->
+  <section class="director" id="director">
+    <div class="container">
+      <div class="director-content">
+        <div class="director-image animate-on-scroll">
+          <div class="image-wrapper">
+            <img src="img/dir.jpg" alt="Director B.S RAJU" class="director-photo" />
+            <div class="image-overlay">
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="scroll-indicator">
-        <span>Scroll Down</span>
-        <div class="scroll-arrow">
-          <i class="fas fa-chevron-down"></i>
-        </div>
-      </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-      <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2 class="section-title">About Us</h2>
-          <p class="section-subtitle">Building Excellence in Education</p>
-        </div>
-
-        <div class="about-content">
-          <div class="about-text animate-on-scroll">
-            <p>
-              Sri Subrahmanya Educational Institutions is a trusted name in
-              student coaching and development, located in Vinjamur, Nellore
-              District, Andhra Pradesh. We are dedicated to providing a
-              high-quality learning environment that fosters academic excellence
-              and personal growth.
-            </p>
-            <p>
-              Our experienced faculty and well-structured curriculum are
-              designed to help students achieve their full potential and secure
-              top ranks in competitive exams. We believe in a holistic approach
-              to education, preparing our students not just for exams, but for a
-              brighter future.
-            </p>
+        <div class="director-text">
+          <div class="section-header animate-on-scroll">
+            <h2 class="section-title">Director's Message</h2>
+            <div class="director-info">
+              <h3>B.S RAJU</h3>
+              <p class="director-qualification">M.Sc. in Computer Science</p>
+            </div>
           </div>
 
-          <div class="stats-grid">
-            <div class="stat-card animate-on-scroll">
-              <div class="stat-icon">
+          <div class="director-message animate-on-scroll">
+            <p>
+              As the Director, I am proud to lead an institution that is
+              revolutionizing education in our region. With a background in
+              <strong>M.Sc. Computers</strong>, my vision has been to bring a
+              <strong>'corporate approach'</strong> to the teaching and
+              learning process in Vinjamur.
+            </p>
+
+            <p>
+              This means more than just using technology; it's about
+              implementing a system that focuses on
+              <strong>efficiency, results, and student-centric excellence.</strong>
+              We have meticulously designed our curriculum to be
+              goal-oriented, just like a corporate project.
+            </p>
+
+            <blockquote>
+              "Our teachers are not just instructors; they are mentors
+              committed to each student's success. This modern, result-driven
+              culture is what sets us apart and empowers our students to reach
+              their highest potential."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Our Courses</h2>
+        <p class="section-subtitle">Comprehensive Programs for Success</p>
+      </div>
+
+      <div class="courses-grid">
+        <div class="course-card animate-on-scroll" data-course="eamcet">
+          <div class="card-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <h3>EAMCET Coaching</h3>
+          <p>
+            Intensive preparation for engineering and medical entrance exams
+          </p>
+          <div class="card-features">
+            <span class="feature-tag">Physics</span>
+            <span class="feature-tag">Chemistry</span>
+            <span class="feature-tag">Mathematics</span>
+          </div>
+          <button class="card-btn">Learn More</button>
+        </div>
+
+        <div class="course-card animate-on-scroll" data-course="navodaya">
+          <div class="card-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Navodaya Coaching</h3>
+          <p>Foundation course for 4th & 5th class JNVST preparation</p>
+          <div class="card-features">
+            <span class="feature-tag">Mental Ability</span>
+            <span class="feature-tag">Arithmetic</span>
+            <span class="feature-tag">Language</span>
+          </div>
+          <button class="card-btn">Learn More</button>
+        </div>
+
+        <div class="course-card animate-on-scroll" data-course="sainik">
+          <div class="card-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Sainik School</h3>
+          <p>Specialized program for 8th class Sainik School entrance</p>
+          <div class="card-features">
+            <span class="feature-tag">Mathematics</span>
+            <span class="feature-tag">General Knowledge</span>
+            <span class="feature-tag">English</span>
+          </div>
+          <button class="card-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Details Modals -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="courseModal">
+      <div class="modal-header">
+        <h3 id="modalTitle"></h3>
+        <button class="modal-close" id="modalClose">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Content will be populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Results Section -->
+  <section class="results" id="results">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Results & Achievements</h2>
+        <p class="section-subtitle">Celebrating Excellence</p>
+      </div>
+
+      <div class="results-grid">
+        <div class="result-card animate-on-scroll">
+          <div class="result-image">
+            <img src="img/News.jpg" alt="EAMCET Success" />
+            <div class="result-overlay">
+              <div class="result-badge">
                 <i class="fas fa-trophy"></i>
-              </div>
-              <div class="stat-number" data-target="500">0</div>
-              <div class="stat-label">Success Stories</div>
-            </div>
-
-            <div class="stat-card animate-on-scroll">
-              <div class="stat-icon">
-                <i class="fas fa-users"></i>
-              </div>
-              <div class="stat-number" data-target="15">0</div>
-              <div class="stat-label">Expert Faculty</div>
-            </div>
-
-            <div class="stat-card animate-on-scroll">
-              <div class="stat-icon">
-                <i class="fas fa-calendar-alt"></i>
-              </div>
-              <div class="stat-number" data-target="3">0</div>
-              <div class="stat-label">Years of Excellence</div>
-            </div>
-
-            <div class="stat-card animate-on-scroll">
-              <div class="stat-icon">
-                <i class="fas fa-medal"></i>
-              </div>
-              <div class="stat-number" data-target="98">0</div>
-              <div class="stat-label">Success Rate %</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Director Section -->
-    <section class="director" id="director">
-      <div class="container">
-        <div class="director-content">
-          <div class="director-image animate-on-scroll">
-            <div class="image-wrapper">
-              <img
-                src="img/dir.jpg"
-                alt="Director B.S RAJU"
-                class="director-photo"
-              />
-              <div class="image-overlay">
-                <div class="social-links">
-                  <a href="#" class="social-link"
-                    ><i class="fab fa-linkedin"></i
-                  ></a>
-                  <a href="#" class="social-link"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </div>
+                <span>Top Ranks</span>
               </div>
             </div>
           </div>
-
-          <div class="director-text">
-            <div class="section-header animate-on-scroll">
-              <h2 class="section-title">Director's Message</h2>
-              <div class="director-info">
-                <h3>B.S RAJU</h3>
-                <p class="director-qualification">M.Sc. in Computer Science</p>
-              </div>
-            </div>
-
-            <div class="director-message animate-on-scroll">
-              <p>
-                As the Director, I am proud to lead an institution that is
-                revolutionizing education in our region. With a background in
-                <strong>M.Sc. Computers</strong>, my vision has been to bring a
-                <strong>'corporate approach'</strong> to the teaching and
-                learning process in Vinjamur.
-              </p>
-
-              <p>
-                This means more than just using technology; it's about
-                implementing a system that focuses on
-                <strong
-                  >efficiency, results, and student-centric excellence.</strong
-                >
-                We have meticulously designed our curriculum to be
-                goal-oriented, just like a corporate project.
-              </p>
-
-              <blockquote>
-                "Our teachers are not just instructors; they are mentors
-                committed to each student's success. This modern, result-driven
-                culture is what sets us apart and empowers our students to reach
-                their highest potential."
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Courses Section -->
-    <section class="courses" id="courses">
-      <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2 class="section-title">Our Courses</h2>
-          <p class="section-subtitle">Comprehensive Programs for Success</p>
-        </div>
-
-        <div class="courses-grid">
-          <div class="course-card animate-on-scroll" data-course="eamcet">
-            <div class="card-icon">
-              <i class="fas fa-flask"></i>
-            </div>
-            <h3>EAMCET Coaching</h3>
+          <div class="result-content">
+            <h4>EAMCET Excellence</h4>
             <p>
-              Intensive preparation for engineering and medical entrance exams
+              Our students consistently secure top ranks in state-level
+              entrance exams with exceptional performance.
             </p>
-            <div class="card-features">
-              <span class="feature-tag">Physics</span>
-              <span class="feature-tag">Chemistry</span>
-              <span class="feature-tag">Mathematics</span>
-            </div>
-            <button class="card-btn">Learn More</button>
-          </div>
-
-          <div class="course-card animate-on-scroll" data-course="navodaya">
-            <div class="card-icon">
-              <i class="fas fa-brain"></i>
-            </div>
-            <h3>Navodaya Coaching</h3>
-            <p>Foundation course for 4th & 5th class JNVST preparation</p>
-            <div class="card-features">
-              <span class="feature-tag">Mental Ability</span>
-              <span class="feature-tag">Arithmetic</span>
-              <span class="feature-tag">Language</span>
-            </div>
-            <button class="card-btn">Learn More</button>
-          </div>
-
-          <div class="course-card animate-on-scroll" data-course="sainik">
-            <div class="card-icon">
-              <i class="fas fa-shield-alt"></i>
-            </div>
-            <h3>Sainik School</h3>
-            <p>Specialized program for 8th class Sainik School entrance</p>
-            <div class="card-features">
-              <span class="feature-tag">Mathematics</span>
-              <span class="feature-tag">General Knowledge</span>
-              <span class="feature-tag">English</span>
-            </div>
-            <button class="card-btn">Learn More</button>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Course Details Modals -->
-    <div class="modal-overlay" id="modalOverlay">
-      <div class="modal" id="courseModal">
-        <div class="modal-header">
-          <h3 id="modalTitle"></h3>
-          <button class="modal-close" id="modalClose">
-            <i class="fas fa-times"></i>
-          </button>
+        <div class="result-card animate-on-scroll">
+          <div class="result-image">
+            <img src="img/News2.jpg" alt="Navodaya Success" />
+            <div class="result-overlay">
+              <div class="result-badge">
+                <i class="fas fa-medal"></i>
+                <span>100% Success</span>
+              </div>
+            </div>
+          </div>
+          <div class="result-content">
+            <h4>Navodaya Selections</h4>
+            <p>
+              Proud to announce successful selections in rigorous Navodaya
+              entrance examinations.
+            </p>
+          </div>
         </div>
-        <div class="modal-body" id="modalBody">
-          <!-- Content will be populated by JavaScript -->
+
+        <div class="result-card animate-on-scroll">
+          <div class="result-image">
+            <img src="img/News3.jpg" alt="Sainik Success" />
+            <div class="result-overlay">
+              <div class="result-badge">
+                <i class="fas fa-star"></i>
+                <span>Excellence</span>
+              </div>
+            </div>
+          </div>
+          <div class="result-content">
+            <h4>Sainik School Success</h4>
+            <p>
+              Multiple students successfully cleared Sainik School entrance
+              exams and secured admissions.
+            </p>
+          </div>
+        </div>
+
+        <div class="result-card animate-on-scroll">
+          <div class="result-image">
+            <img src="img/3rdYr.jpg" alt="Anniversary Success" />
+            <div class="result-overlay">
+              <div class="result-badge">
+                <i class="fas fa-calendar-check"></i>
+                <span>Milestone</span>
+              </div>
+            </div>
+          </div>
+          <div class="result-content">
+            <h4>Third Year Celebration</h4>
+            <p>
+              Successfully completed our third year of transforming education
+              and achieving remarkable results.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Results Section -->
-    <section class="results" id="results">
-      <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2 class="section-title">Results & Achievements</h2>
-          <p class="section-subtitle">Celebrating Excellence</p>
+  <!-- Yoga Section -->
+  <section class="yoga" id="yoga">
+    <div class="container">
+      <div class="yoga-content">
+        <div class="yoga-text">
+          <div class="section-header animate-on-scroll">
+            <h2 class="section-title">Yoga & Wellness</h2>
+            <p class="section-subtitle">Balanced Mind, Balanced Life</p>
+          </div>
+
+          <div class="yoga-description animate-on-scroll">
+            <p>
+              At Sri Subrahmanya Educational Institutions, we believe that
+              true success comes from a balanced mind and body. That's why we
+              integrate the practice of
+              <strong>yoga and meditation</strong> into our curriculum.
+            </p>
+
+            <div class="yoga-benefits">
+              <div class="benefit-item">
+                <i class="fas fa-brain"></i>
+                <span>Enhanced Concentration</span>
+              </div>
+              <div class="benefit-item">
+                <i class="fas fa-heart"></i>
+                <span>Stress Reduction</span>
+              </div>
+              <div class="benefit-item">
+                <i class="fas fa-eye"></i>
+                <span>Improved Memory</span>
+              </div>
+              <div class="benefit-item">
+                <i class="fas fa-leaf"></i>
+                <span>Inner Peace</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="results-grid">
-          <div class="result-card animate-on-scroll">
-            <div class="result-image">
-              <img src="img/News.jpg" alt="EAMCET Success" />
-              <div class="result-overlay">
-                <div class="result-badge">
-                  <i class="fas fa-trophy"></i>
-                  <span>Top Ranks</span>
-                </div>
-              </div>
-            </div>
-            <div class="result-content">
-              <h4>EAMCET Excellence</h4>
-              <p>
-                Our students consistently secure top ranks in state-level
-                entrance exams with exceptional performance.
-              </p>
-            </div>
-          </div>
-
-          <div class="result-card animate-on-scroll">
-            <div class="result-image">
-              <img src="img/News2.jpg" alt="Navodaya Success" />
-              <div class="result-overlay">
-                <div class="result-badge">
-                  <i class="fas fa-medal"></i>
-                  <span>100% Success</span>
-                </div>
-              </div>
-            </div>
-            <div class="result-content">
-              <h4>Navodaya Selections</h4>
-              <p>
-                Proud to announce successful selections in rigorous Navodaya
-                entrance examinations.
-              </p>
-            </div>
-          </div>
-
-          <div class="result-card animate-on-scroll">
-            <div class="result-image">
-              <img src="img/News3.jpg" alt="Sainik Success" />
-              <div class="result-overlay">
-                <div class="result-badge">
-                  <i class="fas fa-star"></i>
-                  <span>Excellence</span>
-                </div>
-              </div>
-            </div>
-            <div class="result-content">
-              <h4>Sainik School Success</h4>
-              <p>
-                Multiple students successfully cleared Sainik School entrance
-                exams and secured admissions.
-              </p>
-            </div>
-          </div>
-
-          <div class="result-card animate-on-scroll">
-            <div class="result-image">
-              <img src="img/3rdYr.jpg" alt="Anniversary Success" />
-              <div class="result-overlay">
-                <div class="result-badge">
-                  <i class="fas fa-calendar-check"></i>
-                  <span>Milestone</span>
-                </div>
-              </div>
-            </div>
-            <div class="result-content">
-              <h4>Third Year Celebration</h4>
-              <p>
-                Successfully completed our third year of transforming education
-                and achieving remarkable results.
-              </p>
+        <div class="yoga-visual animate-on-scroll">
+          <div class="yoga-circle">
+            <div class="yoga-icon">
+              <i class="fas fa-lotus-position"></i>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Yoga Section -->
-    <section class="yoga" id="yoga">
-      <div class="container">
-        <div class="yoga-content">
-          <div class="yoga-text">
-            <div class="section-header animate-on-scroll">
-              <h2 class="section-title">Yoga & Wellness</h2>
-              <p class="section-subtitle">Balanced Mind, Balanced Life</p>
-            </div>
+  <!-- Daily Activities -->
+  <section class="activities" id="activities">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Daily Activities</h2>
+        <p class="section-subtitle">Structured Learning Schedule</p>
+      </div>
 
-            <div class="yoga-description animate-on-scroll">
-              <p>
-                At Sri Subrahmanya Educational Institutions, we believe that
-                true success comes from a balanced mind and body. That's why we
-                integrate the practice of
-                <strong>yoga and meditation</strong> into our curriculum.
-              </p>
-
-              <div class="yoga-benefits">
-                <div class="benefit-item">
-                  <i class="fas fa-brain"></i>
-                  <span>Enhanced Concentration</span>
-                </div>
-                <div class="benefit-item">
-                  <i class="fas fa-heart"></i>
-                  <span>Stress Reduction</span>
-                </div>
-                <div class="benefit-item">
-                  <i class="fas fa-eye"></i>
-                  <span>Improved Memory</span>
-                </div>
-                <div class="benefit-item">
-                  <i class="fas fa-leaf"></i>
-                  <span>Inner Peace</span>
-                </div>
-              </div>
-            </div>
+      <div class="timeline">
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-time">5:00 AM - 8:30 AM</div>
+          <div class="timeline-content">
+            <h4>Morning Session</h4>
+            <p>
+              Intensive morning study and revision sessions for enhanced
+              retention
+            </p>
           </div>
+        </div>
 
-          <div class="yoga-visual animate-on-scroll">
-            <div class="yoga-circle">
-              <div class="yoga-icon">
-                <i class="fas fa-lotus-position"></i>
-              </div>
-            </div>
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-time">9:00 AM - 1:00 PM</div>
+          <div class="timeline-content">
+            <h4>Core Classes</h4>
+            <p>
+              Subject coaching and concept building with experienced faculty
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-time">2:00 PM - 5:00 PM</div>
+          <div class="timeline-content">
+            <h4>Afternoon Session</h4>
+            <p>Doubt clearing, practice tests, and personalized guidance</p>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-time">6:00 PM - 9:00 PM</div>
+          <div class="timeline-content">
+            <h4>Evening Session</h4>
+            <p>Guided self-study and comprehensive topic review</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Daily Activities -->
-    <section class="activities" id="activities">
-      <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2 class="section-title">Daily Activities</h2>
-          <p class="section-subtitle">Structured Learning Schedule</p>
-        </div>
-
-        <div class="timeline">
-          <div class="timeline-item animate-on-scroll">
-            <div class="timeline-time">5:00 AM - 8:30 AM</div>
-            <div class="timeline-content">
-              <h4>Morning Session</h4>
-              <p>
-                Intensive morning study and revision sessions for enhanced
-                retention
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item animate-on-scroll">
-            <div class="timeline-time">9:00 AM - 1:00 PM</div>
-            <div class="timeline-content">
-              <h4>Core Classes</h4>
-              <p>
-                Subject coaching and concept building with experienced faculty
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item animate-on-scroll">
-            <div class="timeline-time">2:00 PM - 5:00 PM</div>
-            <div class="timeline-content">
-              <h4>Afternoon Session</h4>
-              <p>Doubt clearing, practice tests, and personalized guidance</p>
-            </div>
-          </div>
-
-          <div class="timeline-item animate-on-scroll">
-            <div class="timeline-time">6:00 PM - 9:00 PM</div>
-            <div class="timeline-content">
-              <h4>Evening Session</h4>
-              <p>Guided self-study and comprehensive topic review</p>
-            </div>
-          </div>
-        </div>
+  <!-- Batches Section -->
+  <section class="batches" id="batches">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Our Success Stories</h2>
+        <p class="section-subtitle">Celebrating Our Alumni</p>
       </div>
-    </section>
 
-    <!-- Batches Section -->
-    <section class="batches" id="batches">
-      <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2 class="section-title">Our Success Stories</h2>
-          <p class="section-subtitle">Celebrating Our Alumni</p>
+      <div class="batch-slider">
+        <div class="batch-slide active animate-on-scroll">
+          <div class="batch-image">
+            <img src="img/2023Batch.jpg" alt="EAMCET Batch 2023" />
+            <div class="batch-overlay">
+              <h3>EAMCET Batch 2023</h3>
+              <p>
+                Outstanding results with students securing high ranks in top
+                engineering colleges
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="batch-slider">
-          <div class="batch-slide active animate-on-scroll">
-            <div class="batch-image">
-              <img src="img/2023Batch.jpg" alt="EAMCET Batch 2023" />
-              <div class="batch-overlay">
-                <h3>EAMCET Batch 2023</h3>
-                <p>
-                  Outstanding results with students securing high ranks in top
-                  engineering colleges
-                </p>
-              </div>
+        <div class="batch-slide animate-on-scroll">
+          <div class="batch-image">
+            <img src="img/2ndBatch.jpg" alt="EAMCET Batch 2024" />
+            <div class="batch-overlay">
+              <h3>EAMCET Batch 2024</h3>
+              <p>
+                Exceptional performance with several students achieving ranks
+                below 1000
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="batch-slide animate-on-scroll">
-            <div class="batch-image">
-              <img src="img/2ndBatch.jpg" alt="EAMCET Batch 2024" />
-              <div class="batch-overlay">
-                <h3>EAMCET Batch 2024</h3>
-                <p>
-                  Exceptional performance with several students achieving ranks
-                  below 1000
-                </p>
-              </div>
+        <div class="batch-slide animate-on-scroll">
+          <div class="batch-image">
+            <img src="img/1stBatch.jpg" alt="Navodaya Batch 2024" />
+            <div class="batch-overlay">
+              <h3>Navodaya Batch 2024</h3>
+              <p>
+                100% success rate with all students securing admission in
+                Jawahar Navodaya Vidyalayas
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="batch-slide animate-on-scroll">
-            <div class="batch-image">
-              <img src="img/1stBatch.jpg" alt="Navodaya Batch 2024" />
-              <div class="batch-overlay">
-                <h3>Navodaya Batch 2024</h3>
-                <p>
-                  100% success rate with all students securing admission in
-                  Jawahar Navodaya Vidyalayas
-                </p>
-              </div>
+        <div class="batch-slide animate-on-scroll">
+          <div class="batch-image">
+            <img src="img/3rdbatch1.jpg" alt="EAMCET Batch 2024" />
+            <div class="batch-overlay">
+              <h3>EAMCET Batch 2025</h3>
+              <p>
+                Exceptional performance with several students achieving ranks
+                below 1000
+              </p>
             </div>
           </div>
         </div>
@@ -538,226 +536,217 @@
           </button>
         </div>
       </div>
-    </section>
+  </section>
 
-    <!-- Admissions Section -->
-    <section class="admissions" id="admissions">
-      <div class="container">
-        <div class="admission-content">
-          <div class="admission-text animate-on-scroll">
-            <h2>Ready to Begin Your Journey?</h2>
-            <p>
-              Join thousands of successful students who have achieved their
-              dreams with us. Our streamlined online admission process makes it
-              easy to get started.
-            </p>
+  <!-- Admissions Section -->
+  <section class="admissions" id="admissions">
+    <div class="container">
+      <div class="admission-content">
+        <div class="admission-text animate-on-scroll">
+          <h2>Ready to Begin Your Journey?</h2>
+          <p>
+            Join thousands of successful students who have achieved their
+            dreams with us. Our streamlined online admission process makes it
+            easy to get started.
+          </p>
 
-            <div class="admission-features">
-              <div class="feature">
-                <i class="fas fa-check-circle"></i>
-                <span>Easy Online Application</span>
-              </div>
-              <div class="feature">
-                <i class="fas fa-check-circle"></i>
-                <span>Quick Response Time</span>
-              </div>
-              <div class="feature">
-                <i class="fas fa-check-circle"></i>
-                <span>Personalized Counseling</span>
-              </div>
+          <div class="admission-features">
+            <div class="feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Easy Online Application</span>
             </div>
-
-            <button class="btn btn-primary" id="openAdmissionForm">
-              <span>Apply Now</span>
-              <i class="fas fa-arrow-right"></i>
-            </button>
+            <div class="feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Quick Response Time</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Personalized Counseling</span>
+            </div>
           </div>
 
-          <div class="admission-form animate-on-scroll" id="admissionForm">
-            <h3>Admission Form</h3>
-            <form
-              id="studentForm"
-              action="https://formspree.io/f/xyzdayyd"
-              method="POST"
-            >
-              <!-- Hidden FormSubmit configuration -->
-              <input
-                type="hidden"
-                name="_subject"
-                value="New Admission Application"
-              />
-              <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_captcha" value="false" />
-              <!-- <input
+          <button class="btn btn-primary" id="openAdmissionForm">
+            <span>Apply Now</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="admission-form animate-on-scroll" id="admissionForm">
+          <h3>Admission Form</h3>
+          <form id="studentForm" action="https://formspree.io/f/xyzdayyd" method="POST">
+            <!-- Hidden FormSubmit configuration -->
+            <input type="hidden" name="_subject" value="New Admission Application" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- <input
                 type="hidden"
                 name="_next"
                 value="https://sri-subramanya-educational-institut.vercel.app/"
               /> -->
 
+            <div class="form-group">
+              <label for="studentName">Student's Name</label>
+              <input type="text" id="studentName" name="studentName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="parentName">Parent's Name</label>
+              <input type="text" id="parentName" name="parentName" required />
+            </div>
+
+            <div class="form-row">
               <div class="form-group">
-                <label for="studentName">Student's Name</label>
-                <input
-                  type="text"
-                  id="studentName"
-                  name="studentName"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="parentName">Parent's Name</label>
-                <input type="text" id="parentName" name="parentName" required />
-              </div>
-
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="phone">Phone Number</label>
-                  <input type="tel" id="phone" name="phone" required />
-                </div>
-
-                <div class="form-group">
-                  <label for="email">Email Address</label>
-                  <input type="email" id="email" name="email" />
-                </div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required />
               </div>
 
               <div class="form-group">
-                <label for="course">Interested Course</label>
-                <select id="course" name="course" required>
-                  <option value="">Select a Course</option>
-                  <option value="4th-navodaya">4th Class Navodaya</option>
-                  <option value="5th-navodaya">5th Class Navodaya</option>
-                  <option value="8th-sainik">8th Class Sainik School</option>
-                  <option value="eamcet">EAMCET</option>
-                </select>
-              </div>
-
-              <button type="submit" class="btn btn-primary form-submit">
-                <span>Submit Application</span>
-                <i class="fas fa-paper-plane"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="contact-content">
-          <div class="contact-info animate-on-scroll">
-            <h2>Get In Touch</h2>
-            <p>Ready to start your educational journey? Contact us today!</p>
-
-            <div class="contact-methods">
-              <div class="contact-method">
-                <div class="method-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
-                <div class="method-info">
-                  <h4>Phone</h4>
-                  <p>7382214380, 7207980225</p>
-                </div>
-              </div>
-
-              <div class="contact-method">
-                <div class="method-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                <div class="method-info">
-                  <h4>Email</h4>
-                  <p>srisubramanya1219@gmail.com</p>
-                </div>
-              </div>
-
-              <div class="contact-method">
-                <div class="method-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="method-info">
-                  <h4>Address</h4>
-                  <p>Vinjamur, Nellore (Dt), Andhra Pradesh</p>
-                </div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" />
               </div>
             </div>
-          </div>
 
-          <div class="locations animate-on-scroll">
-            <h3>Our Locations</h3>
-            <div class="location-cards">
-              <div class="location-card">
-                <i class="fas fa-building"></i>
-                <h4>Main Branch</h4>
+            <div class="form-group">
+              <label for="Address">Address</label>
+              <input type="Address" id="Address" name="Address" />
+            </div>
+
+
+
+            <div class="form-group">
+              <label for="course">Interested Course</label>
+              <select id="course" name="course" required>
+                <option value="">Select a Course</option>
+                <option value="4th-navodaya">4th Class Navodaya</option>
+                <option value="5th-navodaya">5th Class Navodaya</option>
+                <option value="8th-sainik">8th Class Sainik School</option>
+                <option value="eamcet">EAMCET</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">
+              <span>Submit Application</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info animate-on-scroll">
+          <h2>Get In Touch</h2>
+          <p>Ready to start your educational journey? Contact us today!</p>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="method-info">
+                <h4>Phone</h4>
+                <p>7382214380, 7207980225</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="method-info">
+                <h4>Email</h4>
+                <p>srisubramanya1219@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="method-info">
+                <h4>Address</h4>
                 <p>Vinjamur, Nellore (Dt), Andhra Pradesh</p>
-                <span class="status current">Current</span>
-              </div>
-
-              <div class="location-card">
-                <i class="fas fa-plus-circle"></i>
-                <h4>New Branch</h4>
-                <p>Kavali, Andhra Pradesh</p>
-                <span class="status upcoming">Opening 2026</span>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-brand">
-            <img src="img/logo.jpg" alt="Logo" class="footer-logo" />
-            <h4>Sri Subrahmanya Educational Institutions</h4>
-            <p>Empowering Students for a Brighter Future</p>
-          </div>
+        <div class="locations animate-on-scroll">
+          <h3>Our Locations</h3>
+          <div class="location-cards">
+            <div class="location-card">
+              <i class="fas fa-building"></i>
+              <h4>Main Branch</h4>
+              <p>Vinjamur, Nellore (Dt), Andhra Pradesh</p>
+              <span class="status current">Current</span>
+            </div>
 
-          <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#courses">Courses</a></li>
-              <li><a href="#results">Results</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-social">
-            <h4>Follow Us</h4>
-            <div class="social-links">
-              <a href="#" class="social-link"
-                ><i class="fab fa-facebook"></i
-              ></a>
-              <a href="#" class="social-link"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="social-link"
-                ><i class="fab fa-linkedin"></i
-              ></a>
+            <div class="location-card">
+              <i class="fas fa-plus-circle"></i>
+              <h4>New Branch</h4>
+              <p>Kavali, Andhra Pradesh</p>
+              <span class="status upcoming">Opening 2026</span>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="footer-bottom">
-          <p>
-            &copy; 2025 Sri Subrahmanya Educational Institutions. All rights
-            reserved.
-          </p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="img/logo.jpg" alt="Logo" class="footer-logo" />
+          <h4>Sri Subrahmanya Educational Institutions</h4>
+          <p>Empowering Students for a Brighter Future</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://youtu.be/U8TKiKpRB_o?si=QRE38snvi6jxzaEl" class="social-link"><i
+                class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/share/1G5ohW1p1K/" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/eamcet_navodaya_academy?igsh=Z3dpaTY0cmYzdW93" class="social-link"><i
+                class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          </div>
         </div>
       </div>
-    </footer>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop">
-      <i class="fas fa-arrow-up"></i>
-    </button>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Sri Subrahmanya Educational Institutions. All rights
+          reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-  </body>
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
 </html>
-
